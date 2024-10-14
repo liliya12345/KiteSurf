@@ -13,8 +13,6 @@ function Animation(props) {
                     </div>
                 </div>
             </div>
-
-
         </>
     );
 }

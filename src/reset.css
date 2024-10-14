@@ -1,0 +1,19 @@
+.btn-primary:hover, .btn-primary, .btn-primary:active, .btn, .btn:hover, .btn:active,
+.btn.btn-primary:hover,.btn.btn-primary:active, .btn.btn-primary, button.btn.btn-primary,
+button.btn.btn-primary:hover,button.btn.btn-primary:active
+{
+    transition: background 1s;
+    border-style: none;
+    box-shadow: none;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn:hover, .btn:active, .button.btn.btn-primary:active, .button.btn.btn-primary:hover,button:active,button:hover{
+    background-color: #EF2853;
+    transition: background 1s;
+}
+
+
+
+a,  a:hover,  a:active{
+    color:#747d88;
+}

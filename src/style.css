@@ -1,6 +1,31 @@
 body {
     background-color:#f4f6f8;
+
 }
+
+
+[data-theme='dark'] {
+    background: #05010a;
+   color: #e81d1d;
+
+}
+a.btn{
+    padding: 0;
+    margin:5px;
+    color: white;
+}
+.btn:active:active {
+    padding: 0;
+    margin:5px;
+    color: white;
+    border: 0;
+    padding: 0;
+    margin:5px;
+    border-style: none !important;
+
+}
+
+
 
 .nav-t {
     color: #15063a;
@@ -12,21 +37,47 @@ body {
     margin-right: 20px;
 
 }
+.navbar-light .navbar-nav  .nav-link.active,
+.navbar-light .navbar-nav  .nav-link:hover {
+    color: white;
+}
+.navbar .navbar-nav .navbar-brands:focus,
+.navbar  .navbar-nav .navbar-brands:hover {
+     color: var(--bs-navbar-brand-hover-color);
+}
 
-
-
+.navbar-dark .navbar-brand:hover{
+    color: white;
+}
+.navbar-dark .logo-nav:hover{
+    filter: invert(2);
+}
 .hero-carousel {
     position: relative;
     z-index: 1;
     width: 100%;
 
 }
+
 .navi{
     position: fixed;
-    width: 100%;
     z-index: 2;
-    background: rgba(168, 166, 166, 0.5);
-}.navi2{
+    /*background: rgba(168, 166, 166, 0.5);*/
+}
+.navi2{
+    position: fixed;
+    z-index: 2;
+
+}
+
+
+.navi:hover{
+     color: white;
+ }
+ .nivi-title{
+     color: #130133;
+ }
+.navi2{
     position:sticky;
     width: 100%;
     z-index: 2;
@@ -40,7 +91,7 @@ body {
     left:79.4%;
     border-color: #EF2853;
     overflow:hidden;
-
+    border: none;
     border-radius: 0;
     display: flex;
 
@@ -189,7 +240,8 @@ body {
     width: 300px;
     height: 380px;
     opacity: 0.9;
-    filter: brightness(40%)
+    filter: brightness(40%);
+    filter: drop-shadow(8px 8px 10px gray);
 
 
 }
@@ -225,14 +277,16 @@ body {
 
 .hover-image-scale {
     display: inline-block;
-    overflow: hidden; /* Скрываем всё за контуром */
+    overflow: hidden;
 }
 .hover-image-scale img {
-    transition: 1s; /* Время эффекта */
+    transition: 1s;
     display: block;
 }
 .hover-image-scale img:hover {
-    transform: scale(1.2); /* Увеличиваем масштаб */
+    transform: scale(1.2);
+
+
 }
 em {
     color: #232027;
@@ -252,7 +306,7 @@ em {
     margin-left: 35px;
 }
 
-/* animation */
+
 .gallery ul li, div.gallery li img {
     -webkit-transition: all 0.1s ease-in-out;
     -moz-transition: all 0.1s ease-in-out;
@@ -270,13 +324,12 @@ em {
     z-index: 0;
 }
 
-/* Make sure z-index is higher on hover */
-/* Ensure that hover image overlapped the others */
+
 .gallery ul li:hover {
     z-index: 5;
 }
 
-/* Image is position nicely under li */
+
 .gallery ul li img {
     position: absolute;
     left: 0;
@@ -374,32 +427,46 @@ em {
 }
 .carousel-navbar2{
     min-height: 700px !important;
-    max-height: 700px;
+    max-height: 820px;
     overflow: hidden;
 }
 .img-navbar2{
     min-height: 700px;
     min-width: 100%;
     overflow: hidden;
+    filter: drop-shadow(8px 8px 10px gray);
 
 }
 .logo-nav{
-    max-width: 7%;
+    max-width: 10%;
+
 }
 .image-kurs{
     max-width: 100%;
+    filter: drop-shadow(5px 2px 5px gray);
+
+}
+.img-galary{
+   width: 30%;
+    height: 250px;
+    overflow: hidden;
 
 }
 
 .footer-content{
-    top:80%;
+    top:100%;
     left: 6%;
     position: absolute;
     z-index: 2500;
 }
 
 
-
+a.carousel-control-next-icon{
+    fill: black;
+    background-color: #000;
+    border-radius: 50%;
+    padding: .5rem;
+}
 
 
 
@@ -409,9 +476,10 @@ em {
 .surf-huvud{
     display: flex;
     top:-10px;
-    min-height: 100vh;
+    min-height: 60vh;
     flex-direction: column;
     justify-content: end;
+    background-color: #212224;
 
 }
 
@@ -471,6 +539,9 @@ em {
     }
 
 }
+
+
+
 
 
 

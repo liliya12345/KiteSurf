@@ -1,11 +1,11 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {Button} from "react-bootstrap";
 
-function Eye(props) {
+function Eye(props ) {
+
     return (
+
         <>
-
-
                 <Button className="eye-btn mx-2 ">
                     <svg xmlns="http://www.w3.org/2000/svg"
                          viewBox="0 0 576 512"

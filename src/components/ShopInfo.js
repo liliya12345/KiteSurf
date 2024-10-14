@@ -20,9 +20,7 @@ export default function ShopInfo(props,) {
                 <div>
                     <Row className="justify-content-start">
                         <Col sm={12}>
-                            {/*<a href={"/shop/item"}  onClick={handleItem}>*/}
                             <Link to={`/shop/item/${props.id}`}>
-
 
                                 <i className="bi bi-arrow-right-circle-fill"></i>
                                 <Container className="position-relative mt-5 item-ls">
@@ -51,7 +49,7 @@ export default function ShopInfo(props,) {
 
                                     </div>
                                 </Container>
-                                {/*</a>*/}
+
                             </Link>
                         </Col>
                     </Row>

@@ -12,7 +12,7 @@ export default  function CarouselItem(props) {
             <img
                 className="d-block w-100"
                 src={props.img}
-                alt="First slide"
+                alt="img"
             />
             <Carousel.Caption className="p-5 mb-5">
                         <span>
