@@ -6,7 +6,11 @@ body {
 
 [data-theme='dark'] {
     background: #05010a;
-   color: #e81d1d;
+   color: #101010;
+
+    img {
+        filter: grayscale(100%);
+    }
 
 }
 a.btn{
@@ -84,12 +88,12 @@ a.btn{
     background: rgba(168, 166, 166, 0.5);
 }
 .eye-btn{
-    background: #EF2853;
+    background: #aa233f;
     position: fixed;
     z-index: 3;
     top: 90%;
     left:79.4%;
-    border-color: #EF2853;
+    border-color:#aa233f;
     overflow:hidden;
     border: none;
     border-radius: 0;
@@ -106,6 +110,7 @@ a.btn{
 }
 .p-eye{
     margin: 5px;
+    font-weight: bold;
     font-size: 12px !important;
     font-family: Helvetica sans-serif;
     color: #ffffff;
@@ -131,14 +136,14 @@ a.btn{
 .icon-design{
     width: 25px;
     height: auto;
-    fill: #EF2853;
+    fill: #75192e;
     margin-left: 5px;
 }
 .p-design{
     margin: 5px;
     font-size: 12px !important;
     font-family: Helvetica sans-serif;
-    color: #EF2853;
+    color: #75192e;
     text-transform:uppercase;
     letter-spacing:2px;
     filter: brightness(120%);
@@ -417,7 +422,7 @@ em {
 .btn-product{
     background-color: black;
     color: white;
-    width: 20%;
+
 
 }
 .link-korg{
@@ -454,7 +459,7 @@ em {
 }
 
 .footer-content{
-    top:100%;
+    top:70%;
     left: 6%;
     position: absolute;
     z-index: 2500;
@@ -466,6 +471,9 @@ a.carousel-control-next-icon{
     background-color: #000;
     border-radius: 50%;
     padding: .5rem;
+}
+a.nav-a.nav-link:active{
+    text-underline: #a52834;
 }
 
 

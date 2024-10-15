@@ -1,13 +1,15 @@
 import React from 'react';
 import Carousel from "react-bootstrap/Carousel";
 import {hero} from "../img/hero.png"
-import {  shop } from './shop';
+import {shop} from './shop';
 
-export default  function CarouselItem(props) {
+export default function CarouselItem(props) {
+
+
     console.log(props.title)
     return (
 
-        <Carousel.Item  img={props.img}>
+        <Carousel.Item img={props.img}>
 
             <img
                 className="d-block w-100"
@@ -18,7 +20,7 @@ export default  function CarouselItem(props) {
                         <span>
                             <h5 className="mr-de-haviland-regular text-white hero-text">{props.title}</h5>
                         </span>
-                <span>
+                        <span>
                         <p className="lora">{props.description}</p>
                         </span>
             </Carousel.Caption>

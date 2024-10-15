@@ -61,7 +61,7 @@ export default function Header(props) {
 
                 </Button>
                 <Container className="d-flex justify-content-center pb-5">
-                    <motion.Section initial="hidden" whileInView="visible">
+                    <motion.div initial="hidden" whileInView="visible">
                         <Row>
                             <Col xl={6} xs={12}>
                                 <Row className=" justify-content-lg-end row-banner">
@@ -100,7 +100,7 @@ export default function Header(props) {
                                     är den ultimata hobbyn som ger dig allt detta ochväldigt mycket mer!</motion.p>
                             </Col>
                         </Row>
-                    </motion.Section>
+                    </motion.div>
                 </Container>
 
             </div>

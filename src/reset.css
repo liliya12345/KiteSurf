@@ -17,3 +17,6 @@ button.btn.btn-primary:hover,button.btn.btn-primary:active
 a,  a:hover,  a:active{
     color:#747d88;
 }
+a:active{
+    text-underline: #0d6efd;
+}

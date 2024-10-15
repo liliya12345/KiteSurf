@@ -64,6 +64,7 @@ function Kurser(props) {
 
                 </video>
 
+
                 <span>
                     <p className="my-3 mr-de-havilan text-center"> Våra kurser</p>
                 </span>
@@ -97,7 +98,7 @@ function Kurser(props) {
                                         </motion.button>
                                     </Col>
                                     <Col lg={6} xs={12} className="my-3">
-                                        <motion.img custom={5} variants={kursAnimation} src={product.img} className="image-kurs my-3"/>
+                                        <motion.img custom={5} variants={kursAnimation} src={product.img} className="image-kurs my-3" alt="img"/>
                                     </Col>
                                 </Row>
                             </motion.Section>
@@ -111,7 +112,7 @@ function Kurser(props) {
                             <motion.Section initial="hidden" whileInView="visible">
                                 <Row>
                                     <Col lg={6} xs={12} className="my-3">
-                                        <motion.img custom={1} variants={kursAnimationImg} src={product.img} className="image-fluid image-kurs my-3"/>
+                                        <motion.img custom={1} variants={kursAnimationImg} src={product.img} className="image-fluid image-kurs my-3" alt="img"/>
                                     </Col>
 
                                     <Col lg={6} xs={12} className="my-3">
@@ -228,7 +229,7 @@ function Kurser(props) {
                                         </Row>
                                     </Col>
                                     <Col lg={6} xs={12} className="my-3">
-                                        <motion.img custom={5} variants={kursAnimationImg} src={product.img} className="image-fluid image-kurs my-3"/>
+                                        <motion.img custom={5} variants={kursAnimationImg} src={product.img} className="image-fluid image-kurs my-3" alt="img"/>
                                     </Col>
 
 

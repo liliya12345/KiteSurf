@@ -9,29 +9,18 @@ function About(props) {
             hidden: {
                 x: -100,
                 opacity: 0,
+                duration: 5,
+                delay: 1
             },
             visible: custom => ({
                 x: 0,
                 opacity: 1,
-                transition: {delay: custom * 0.3}
+                transition: {delay: custom * 0.5},
+
 
             })
         }
-        const aboutAnimationRight = {
-            hidden: {
-                x: -10,
-                opacity: 0,
-            },
-            visible: custom => ({
-                x: 0,
-                opacity: 1,
-                transition: {delay: custom * 0.3},
-                scale: [1, 2, 2, 1, 1],
-                rotate: [0, 0, 270, 270, 0],
-                borderRadius: ["20%", "20%", "50%", "50%", "20%"],
 
-            })
-        }
 
     return (
        <>
@@ -39,7 +28,7 @@ function About(props) {
                 style= {{
                     backgroundColor:"#212224"
                 }}>
-               <motion.Section  initial="hidden" whileInView="visible">
+               <motion.div  initial="hidden" whileInView="visible">
                    <Container className="my-0  w-100">
                        <Row>
                            <Col lg={6} xs={12} className="my-5">
@@ -58,13 +47,13 @@ function About(props) {
 
                            </Col>
                            <Col lg={6} xs={12} className="my-3">
-                               <motion.img custom={3} variants={aboutAnimationRight} src={img1} className="image-fluid image-kurs my-5"/>
+                               <img custom={3} variants={aboutAnimation} src={img1} className="image-fluid image-kurs my-5" alt="img"/>
                            </Col>
 
 
                        </Row>
                    </Container>
-               </motion.Section>
+               </motion.div>
 
            </div>
 

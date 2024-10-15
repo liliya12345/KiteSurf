@@ -28,18 +28,18 @@ export default function ShopItemInfo(itemShop) {
                                         <div>
                                             <Carousel style={{overflow: "hidden"}} className="w-70">
                                                 <Carousel.Item>
-                                                    <Image src={product.img[0]} style={{overflow: "hidden"}}/>
+                                                    <Image src={product.img[0]} style={{overflow: "hidden"}} alt="img"/>
                                                     <Carousel.Caption>
 
                                                     </Carousel.Caption>
                                                 </Carousel.Item>
                                                 <Carousel.Item>
-                                                    <Image src={product.img[1]} style={{overflow: "hidden"}}/>
+                                                    <Image src={product.img[1]} style={{overflow: "hidden"}} alt="img"/>
                                                     <Carousel.Caption>
                                                              </Carousel.Caption>
                                                 </Carousel.Item>
                                                 <Carousel.Item>
-                                                    <Image src={product.img[2]} style={{overflow: "hidden"}}/>
+                                                    <Image src={product.img[2]} style={{overflow: "hidden"}} alt="img"/>
                                                     <Carousel.Caption>
 
                                                     </Carousel.Caption>

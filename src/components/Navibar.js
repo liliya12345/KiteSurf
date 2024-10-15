@@ -19,10 +19,10 @@ export default function Navibar(props) {
                 <Container className="py-3">
 
                     <Navbar.Brand href="/" className="mr-de-havilan p-1  navbar-brands">KiteSurf</Navbar.Brand>
-                    <Nav.Link className="nav-a " href="/"><Image  src={surf} className="logo-nav d-none d-lg-block min-vw-7" /></Nav.Link>
+                    <Nav.Link className="nav-a " href="/"><Image  src={surf} className="logo-nav d-none d-lg-block min-vw-7"  alt="img"/></Nav.Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                     <Navbar.Collapse className="justify-content-evenly nav-t">
-                        <Nav>
+                        <Nav variant="underline">
                             <Nav.Link className="nav-a " href="/">Home</Nav.Link>
                             <Nav.Link className="nav-a" href="/shop">Shop</Nav.Link>
                             <Nav.Link className="nav-a" href="/course">Kurser</Nav.Link>

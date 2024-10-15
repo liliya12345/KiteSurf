@@ -2,7 +2,7 @@ import React from 'react';
 import {Button, Col, Container, Row, Section} from "react-bootstrap";
 import logo from "../img/bnr1.webp"
 import logo1 from "../img/ban1.jpeg"
-import logo2 from "../img/ban2.webp"
+import logo2 from "../img/banner3.jpeg"
 import {motion, stagger} from "framer-motion"
 
 export default function Banner(props) {
@@ -26,7 +26,7 @@ export default function Banner(props) {
 
     return (<>
             <div className="d-flex align-items-center justify-content-center text-center banner-bg p-0 my-3 mx-0">
-                <motion.Section initial="hidden" whileInView="visible">
+                <motion.div initial="hidden" whileInView="visible">
                     <Row>
                         <Row className="my-3">
                             <Col>
@@ -48,7 +48,7 @@ export default function Banner(props) {
                                     <span>
                             <Button
                                 className="py-2 mt-5  btn btn-product justify-content-center position-absolute">
-                                <p className="p-0 m-0 ">Läs mer</p>
+                                <p className="px-2 m-0 ">Läs mer</p>
                             </Button>¬
                              </span>
                                 </motion.div>
@@ -69,7 +69,7 @@ export default function Banner(props) {
                             </span>
                                     <span>
                         <Button className="py-2 mt-5  btn btn-product justify-content-center position-absolute">
-                                <p className="p-0 m-0 ">Läs mer</p>
+                                <p className="px-2 m-0 ">Läs mer</p>
                             </Button> </span>
                                 </motion.div>
                             </motion.div>
@@ -89,14 +89,14 @@ export default function Banner(props) {
 
                                     <span>
                             <Button className="py-2 mt-5  btn btn-product justify-content-center position-absolute">
-                                <p className="p-0 m-0 ">Läs mer</p>
+                                <p className="px-2 m-0 ">Läs mer</p>
                             </Button>
                         </span>
                                 </motion.div>
                             </motion.div>
                         </Col>
                     </Row>
-                </motion.Section>
+                </motion.div>
 
 
             </div>
