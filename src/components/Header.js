@@ -48,8 +48,7 @@ export default function Header(props) {
             <div className="position-relative p-0 my-0 mx-0 bg-white">
                 <Navibar/>
                 <MinCarousel/>
-                {/*<Eye />*/}
-                <Button className="eye-btn mx-2" onClick={handleChangeStyle}>
+                <Button className="eye-btn" onClick={handleChangeStyle}>
                     <svg xmlns="http://www.w3.org/2000/svg"
                          viewBox="0 0 576 512"
                          className="icon-eye ">

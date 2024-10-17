@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Alert, Button, Col, Container, Dropdown, Form, InputGroup, Row, Section} from "react-bootstrap";
+import {Alert, Button, Col, Container, Dropdown, Form, InputGroup, Modal, Row, Section} from "react-bootstrap";
 import NavibarShop from "./NavibarShop";
 import Footer from "./Footer";
 import {motion, stagger} from "framer-motion"
@@ -23,8 +23,8 @@ function Contacts() {
 
     const [show, setShow] = useState(false);
     const handelAlert = () => {
-         // validated === true &&
-        setShow(true);
+
+        if (validated === true ) setShow(true);
 
     }
     const handleClose = () => {
@@ -58,10 +58,20 @@ function Contacts() {
 
     return (
         <>
-            <Alert show={show} Color="dark" variant="success" onClose={() => setShow(false)}
-                   dismissible>
-                <Alert.Heading>Vi ses snart i {city}!</Alert.Heading>
-            </Alert>
+            <Modal show={show} onHide={handleClose}>
+                <Modal.Header closeButton>
+                    <Modal.Title>Hej</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>Woohoo, vi ses  snart {city}!</Modal.Body>
+                <Modal.Footer>
+                    <Button variant="secondary" onClick={handleClose}>
+                        Close
+                    </Button>
+
+                </Modal.Footer>
+            </Modal>
+
+
             <div className="bg-light">
                 <NavibarShop/>
                 <Container className="bg-light my-5 py-5">
@@ -169,9 +179,8 @@ function Contacts() {
                                             </Form.Group>
 
                                             <Button type="submit" onClick={handelAlert}>Boka</Button>
-
-
                                         </Form>
+
 
                                     </motion.div>
                                         </motion.div>

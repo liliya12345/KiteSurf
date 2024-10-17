@@ -2,9 +2,7 @@ import React, {useState} from 'react';
 import {Col, Container, Dropdown, ListGroup, Row} from "react-bootstrap";
 import {shop} from "./shop";
 import ShopInfo from "./ShopInfo";
-import Header from "./Header";
 import Footer from "./Footer";
-import Navibar from "./Navibar";
 import NavibarShop from "./NavibarShop";
 import SideBar from "./SideBar";
 

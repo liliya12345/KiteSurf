@@ -10,75 +10,75 @@ import img9 from "../img/ban1.jpeg"
 import img10 from "../img/banner3.jpeg"
 
 
-export const imagegalary = [
+export const data = [
     {
         id: 1,
-        img: img1
+        src: img1
     },
     {
         id: 2,
-        img: img2
+        src: img2
     },
     {
         id: 3,
-        img: img3
+        src: img3
     },
     {
         id: 4,
-        img: img4
+        src: img4
     },
     {
         id: 5,
-        img: img5
+        src: img5
     },
     {
         id: 6,
-        img: img6
+        src: img6
     },
     {
         id: 7,
-        img: img7
+        src: img7
     },
     {
         id: 8,
-        img: img9
+        src: img9
     }, {
         id: 9,
-        img: img8
+        src: img8
     }, {
         id: 10,
-        img: img10
+        src: img10
     }, {
         id: 11,
-        img: img2
+        src: img2
     }, {
         id: 12,
-        img: img7
+        src: img7
     },{
         id: 13,
-        img: img8
+        src: img8
     },{
         id: 14,
-        img: img7
+        src: img7
     },{
         id: 15,
-        img: img10
+        src: img10
     },{
         id: 16,
-        img: img2
+        src: img2
     },{
         id: 17,
-        img: img1
+        src: img1
     },{
         id: 18,
-        img: img3
+        src: img3
     },{
         id: 19,
-        img: img4
+        src: img4
     },
     {
         id: 20,
-        img: img5
+        src: img5
     }
 
 ]

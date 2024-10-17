@@ -20,3 +20,7 @@ a,  a:hover,  a:active{
 a:active{
     text-underline: #0d6efd;
 }
+.div, container{
+    margin: 0;
+    padding:0
+}

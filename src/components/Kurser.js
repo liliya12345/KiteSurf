@@ -77,7 +77,7 @@ function Kurser(props) {
                     {product.id === 1 && (
 
                         <Container className="my-3">
-                            <motion.Section initial="hidden" whileInView="visible">
+                            <motion.div initial="hidden" whileInView="visible">
                                 <Row>
                                     <Col lg={6} xs={12} className="my-3">
                                         <motion.h3  custom={1} variants={kursAnimation} className="moris text-items "
@@ -101,7 +101,7 @@ function Kurser(props) {
                                         <motion.img custom={5} variants={kursAnimation} src={product.img} className="image-kurs my-3" alt="img"/>
                                     </Col>
                                 </Row>
-                            </motion.Section>
+                            </motion.div>
 
                         </Container>
                     )
@@ -109,7 +109,7 @@ function Kurser(props) {
                     {product.id === 2 && (
 
                         <Container className="my-3">
-                            <motion.Section initial="hidden" whileInView="visible">
+                            <motion.div initial="hidden" whileInView="visible">
                                 <Row>
                                     <Col lg={6} xs={12} className="my-3">
                                         <motion.img custom={1} variants={kursAnimationImg} src={product.img} className="image-fluid image-kurs my-3" alt="img"/>
@@ -178,7 +178,7 @@ function Kurser(props) {
 
                                 </Row>
 
-                            </motion.Section>
+                            </motion.div>
                         </Container>
 
                         )
@@ -186,7 +186,7 @@ function Kurser(props) {
                     {product.id === 3 && (
 
                         <Container className="my-3">
-                            <motion.Section initial="hidden" whileInView="visible">
+                            <motion.div initial="hidden" whileInView="visible">
                                 <Row>
                                     <Col lg={6} xs={12} className="my-3">
                                         <Row>
@@ -234,7 +234,7 @@ function Kurser(props) {
 
 
                                 </Row>
-                            </motion.Section>
+                            </motion.div>
 
                         </Container>
 

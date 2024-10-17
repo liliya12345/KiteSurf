@@ -1,12 +1,8 @@
 import React, {useState} from 'react';
 import {Button, Card, Col, Container, Image, Nav, Row} from "react-bootstrap";
 import icon from "../img/icons8-heart-50.png"
-import ShopItemInfo from "./ShopItemInfo";
 import {BrowserRouter, Link, Route, Routes} from "react-router-dom";
-import Home from "./Home";
-import ShopComponent from "./ShopComponent";
-import ProductsItem from "./ProductsItem";
-import Carousel from "react-bootstrap/Carousel";
+
 
 export default function ShopInfo(props,) {
 

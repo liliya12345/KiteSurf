@@ -15,9 +15,7 @@ export default function Navibar(props) {
             <Navbar expand="lg" className="navbar-dark w-100  navi"  style={{
                 backgroundColor:"rgba(168, 166, 166, 0.5)"
             }}>
-
                 <Container className="py-3">
-
                     <Navbar.Brand href="/" className="mr-de-havilan p-1  navbar-brands">KiteSurf</Navbar.Brand>
                     <Nav.Link className="nav-a " href="/"><Image  src={surf} className="logo-nav d-none d-lg-block min-vw-7"  alt="img"/></Nav.Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>

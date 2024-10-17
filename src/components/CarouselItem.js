@@ -6,7 +6,7 @@ import {shop} from './shop';
 export default function CarouselItem(props) {
 
 
-    console.log(props.title)
+
     return (
 
         <Carousel.Item img={props.img}>

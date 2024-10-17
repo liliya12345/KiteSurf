@@ -1,6 +1,5 @@
 import surf from '../img/surskurs.jpg'
 import wind from '../img/wingkurs1.jpg'
-import kites from '../img/surf1.jpg'
 
 
 export  const kurs = [

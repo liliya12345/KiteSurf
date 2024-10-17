@@ -3,7 +3,7 @@ import React from 'react';
 function Animation(props) {
     return (
         <>
-            <div className="surf-huvud">
+            <div className="surf-huvud ">
                 <div className="surf">
                     <div className="waves">
                         <div className="waves" id="wave1"></div>
