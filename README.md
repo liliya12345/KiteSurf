@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# KiteSurf Rect-web sida using Bootstrap5, ReactJS, JavaScript.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://kitesurdskanetwo.netlify.app/
+----
 
-## Available Scripts
+The goal was to learn new tools such as React and Bootstrap.
+KiteSurfSkaneTwo include 5 pages, such as  Home,Shop,Courses,Item,Contacts.
+I have used responsive design using Bootstrap grid (Col and
+Row). I have also used the FormerMotion Library for animation on each
+page.
+On the first page (#home) there is a carousel, image gallery, menu, which is visible to everyone
+pages. There is also[ a button that can change the theme of the first page to
+black and white.
+On the other side (#shop) there is a built-in sidebar, carousel with items.
+If you press an item, it opens in a new window.
+On the third page (#kurser) comes a video with sound, accordion.
+On the last page (#contacts) there is a form with validation that was built with
+using Bootstap5.
+In the Footer there is a wave animation.
+---
+## 1.Installationsguide: 
 
-In the project directory, you can run:
+You can start appication you can run:
+>npm start
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in your browser.
+The page will reload when you make changes.
 You may also see any lint errors in the console.
+>npm test
+>npm run build
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
+Builds the app for production to the build folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+2. FAQ och felsökning:
+   Learn More
+   You can learn more in the Create React App documentation.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To learn React, check out the React documentation.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Code Splitting
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Analyzing the Bundle Size
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Making a Progressive Web App
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-## Learn More
+Advanced Configuration
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Deployment
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+>npm run build fails to minify
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
