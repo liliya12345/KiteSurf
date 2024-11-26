@@ -3,12 +3,12 @@
 https://kitesurdskanetwo.netlify.app/
 ----
 
-The goal was to learn new tools such as React and Bootstrap.
+#### The goal was to learn new tools such as ReactJS and Bootstrap.
+
 KiteSurfSkaneTwo include 5 pages, such as  Home,Shop,Courses,Item,Contacts.
 I have used responsive design using Bootstrap grid (Col and
 Row). I have also used the FormerMotion Library for animation on each
-page.
-On the first page (#home) there is a carousel, image gallery, menu, which is visible to everyone
+page. On the first page (#home) there is a carousel, image gallery, menu, which is visible to everyone
 pages. There is also[ a button that can change the theme of the first page to
 black and white.
 On the other side (#shop) there is a built-in sidebar, carousel with items.
@@ -58,5 +58,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 Deployment
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
->npm run build fails to minify
+npm run build fails to minify
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
