@@ -5,20 +5,10 @@ https://kitesurdskanetwo.netlify.app/
 
 ### The goal was to learn new tools such as ReactJS and Bootstrap.
 ---
-KiteSurfSkaneTwo include 5 pages, such as  Home,Shop,Courses,Item,Contacts.
-I have used responsive design using Bootstrap grid (Col and
-Row). 
-I have also used the FormerMotion Library for animation on each
-page. 
-On the first page (#home) there is a carousel, image gallery, menu, which is visible to everyone
-pages. 
-There is also[ a button that can change the theme of the first page to
-black and white.
-On the other side (#shop) there is a built-in sidebar, carousel with items.
-If you press an item, it opens in a new window.
-On the third page (#kurser) comes a video with sound, accordion.
-On the last page (#contacts) there is a form with validation that was built with
-using Bootstap5.
+
+KiteSurfSkaneTwo include 5 pages, such as  Home,Shop,Courses,Item,Contacts.  I have used responsive design using Bootstrap grid (Col and Row).  I have also used the FormerMotion Library for animation on each page. 
+On the first page (#home) there is a carousel, image gallery, menu, which is visible to everyone pages. 
+There is also[ a button that can change the theme of the first page to black and white.  On the other side (#shop) there is a built-in sidebar, carousel with items. If you press an item, it opens in a new window. On the third page (#kurser) comes a video with sound, accordion. On the last page (#contacts) there is a form with validation that was built with using Bootstap5.
 In the Footer there is a wave animation.
 ---
 ## 1.Installationsguide: 
