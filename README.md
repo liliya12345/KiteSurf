@@ -1,10 +1,10 @@
 # KiteSurf Rect-web sida using Bootstrap5, ReactJS, JavaScript.
 
 https://kitesurdskanetwo.netlify.app/
-----
+---
 
-#### The goal was to learn new tools such as ReactJS and Bootstrap.
-
+### The goal was to learn new tools such as ReactJS and Bootstrap.
+---
 KiteSurfSkaneTwo include 5 pages, such as  Home,Shop,Courses,Item,Contacts.
 
 I have used responsive design using Bootstrap grid (Col and
@@ -65,4 +65,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
 > npm run build fails to minify
-## This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+##  This section has moved here:
+https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
