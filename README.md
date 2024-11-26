@@ -6,10 +6,14 @@ https://kitesurdskanetwo.netlify.app/
 #### The goal was to learn new tools such as ReactJS and Bootstrap.
 
 KiteSurfSkaneTwo include 5 pages, such as  Home,Shop,Courses,Item,Contacts.
+
 I have used responsive design using Bootstrap grid (Col and
-Row). I have also used the FormerMotion Library for animation on each
-page. On the first page (#home) there is a carousel, image gallery, menu, which is visible to everyone
-pages. There is also[ a button that can change the theme of the first page to
+Row). 
+I have also used the FormerMotion Library for animation on each
+page. 
+On the first page (#home) there is a carousel, image gallery, menu, which is visible to everyone
+pages. 
+There is also[ a button that can change the theme of the first page to
 black and white.
 On the other side (#shop) there is a built-in sidebar, carousel with items.
 If you press an item, it opens in a new window.
@@ -37,7 +41,7 @@ The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
 
-2. FAQ och felsökning:
+2.  FAQ och felsökning:
    Learn More
    You can learn more in the Create React App documentation.
 
