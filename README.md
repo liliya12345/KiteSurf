@@ -6,7 +6,6 @@ https://kitesurdskanetwo.netlify.app/
 ### The goal was to learn new tools such as ReactJS and Bootstrap.
 ---
 KiteSurfSkaneTwo include 5 pages, such as  Home,Shop,Courses,Item,Contacts.
-
 I have used responsive design using Bootstrap grid (Col and
 Row). 
 I have also used the FormerMotion Library for animation on each
